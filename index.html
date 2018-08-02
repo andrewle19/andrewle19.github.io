@@ -58,8 +58,8 @@
 				<section class="tiles">
 					<div>
 						<span class="image">
-												<img src="images/compiler2.png" alt="" />
-											</span>
+							<img src="images/compiler2.png" alt="" />
+						</span>
 						<a href="#compiler" class="projects">
 							<h2>Compiler</h2>
 							<div class="content">
@@ -67,6 +67,31 @@
 							</div>
 						</a>
 					</div>
+
+					<div>
+						<span class="image">
+							<img src="images/cometcrush.png" alt="" />
+						</span>
+						<a href="#cometcrush" class="projects">
+							<h2>Comet Crush</h2>
+							<div class="content">
+								<p>An arcade style top down shooter created with pygame</p>
+							</div>
+						</a>
+					</div>
+
+					<div>
+						<span class="image">
+							<img src="images/cipherpoker.png" alt="" />
+						</span>
+						<a href="#cipherpoker" class="projects">
+							<h2>Cipher Poker</h2>
+							<div class="content">
+								<p>A secure pseudo poker game that uses encryption to allow two users to securly play over a socket.</p>
+							</div>
+						</a>
+					</div>
+
 				</section>
 			</article>
 
@@ -74,15 +99,39 @@
 			<!--Project Pages -->
 			<article id="compiler">
 				<h2 class="major">Compiler</h2>
-				<p>Compiler project that takes in an original grammar parses
-					and converts the grammar into Backus–Naur form(BNF).
-					This grammar can include mathematical operands, named variables and
-					print statements. Uses a predictive parsing table to check
-					if the grammar is valid. Converts the grammar into valid python/c++ code.</p>
-				<a href="#projects" class="button" style= "float: left;">
+				<!-- <iframe src="https://giphy.com/embed/1ZmXTmdQDoRVdUCu4T" width="310" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/1ZmXTmdQDoRVdUCu4T"></a></p> -->
+				<p>Compiler project that takes in an original grammar parses and converts the grammar into Backus–Naur form(BNF). This grammar can include mathematical operands, named variables and print statements. Uses a predictive parsing table to check if the grammar
+					is valid. Converts the grammar into valid python/c++ code.</p>
+				<a href="#projects" class="button" style="float: left;">
 					<i class="fa fa-long-arrow-left"></i>Return to Projects</a>
-				<a href="https://github.com/andrewle19/Compiler" class="button" style= "float: right;">
+				<a href="https://github.com/andrewle19/Compiler" class="button" style="float: right;">
 					<i class="fa fa-long-arrow-right"></i>Go to SourceCode</a>
+			</article>
+
+			<article id="cometcrush">
+				<h2 class="major">Comet Crush</h2>
+				<iframe src="https://giphy.com/embed/1ZmXTmdQDoRVdUCu4T" width="310" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+				<p><a href="https://giphy.com/gifs/1ZmXTmdQDoRVdUCu4T"></a></p>
+				<p>Comet crush is a top down shooter game where the player controls a ship trying to shoot and dodge comets flying towards the player. The goal of the game is to score the highest score by destroying the most comets.The game was made in python using
+					the pygame engine.</p>
+				<a href="#projects" class="button" style="float: left;">
+					<i class="fa fa-long-arrow-left"></i>Return to Projects</a>
+				<a href="https://github.com/andrewle19/CometCrush" class="button" style="float: right;">
+					<i class="fa fa-long-arrow-right"></i>Go to SourceCode</a>
+			</article>
+
+			<article id="cipherpoker">
+				<h2 class="major">Cipher Poker</h2>
+				<span class="image">
+					<img src="images/design.png" width="100%" alt="" />
+				</span>
+				<p>Cipher Poker is a secure pseudo poker game that allows two users to play over a socket. Cipher Poker uses the server/client model approach. The central server hosts the games between two clients. Each client generates a session key and sends it to
+					the server which the server uses to encrypt messages sent from the server to the client. The house then generates 3 numbers for each client and the clients choose between each number. The server compares the numbers in each round and the client with
+					the highest number wins the round. The client that wins at least two rounds wins the game. The client Communication is all through TCP and using AES over the plaintext to achieve confidentiality. </p>
+				<a href="#projects" class="button" style="float: left;">
+						<i class="fa fa-long-arrow-left"></i>Return to Projects</a>
+				<a href="https://github.com/andrewle19/CipherPoker" class="button" style="float: right;">
+						<i class="fa fa-long-arrow-right"></i>Go to SourceCode</a>
 			</article>
 
 			<!-- Resume -->
@@ -96,7 +145,8 @@
 			<article id="about">
 				<h2 class="major">About</h2>
 				<span class="image left"><img src="images/aboutpic2.png" alt="" /></span>
-				<p>Skilled in Software Development specifically skills like C++, Swift, Python, UNITY. Determined and inspired about working on projects that promotes self improvement. Passionate about learning about cutting edge technologies.</p>
+				<p>Skilled in Software Development specifically skills like C++, Swift, Python, UNITY. Determined and inspired about working on projects that promote self improvement. Passionate about learning cutting edge technologies. I am interested in working in
+					software/game development.</p>
 			</article>
 
 			<!-- Contact -->
